@@ -23,75 +23,46 @@
         android:layout_centerHorizontal="true" />
 
     <Button
+        style="@style/ButtonTheme"
         android:text="@string/first_project"
-        android:background="@color/projectButtonColor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:id="@+id/button"
-        android:onClick="showToast"
         android:layout_below="@+id/textView"
-        android:layout_marginLeft="@dimen/main_activity_horizontal_margin"
-        android:layout_marginRight="@dimen/main_activity_horizontal_margin" />
+        android:layout_marginLeft="@dimen/main_activity_horizontal_margin" />
 
     <Button
+        style="@style/ButtonTheme"
         android:text="@string/second_project"
-        android:background="@color/projectButtonColor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_below="@+id/button"
-        android:onClick="showToast"
         android:layout_alignStart="@+id/button"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:id="@+id/button2"
-        android:layout_marginRight="@dimen/main_activity_horizontal_margin" />
+        android:id="@+id/button2" />
 
     <Button
+        style="@style/ButtonTheme"
         android:text="@string/third_project"
-        android:background="@color/projectButtonColor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
-        android:onClick="showToast"
-        android:layout_alignStart="@+id/button2"
-        android:layout_marginRight="@dimen/main_activity_horizontal_margin" />
+        android:layout_alignStart="@+id/button2" />
 
     <Button
+        style="@style/ButtonTheme"
         android:text="@string/fourth_project"
-        android:background="@color/projectButtonColor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:id="@+id/button4"
-        android:onClick="showToast"
         android:layout_below="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:layout_marginRight="@dimen/main_activity_horizontal_margin" />
+        android:layout_alignStart="@+id/button3" />
 
     <Button
+        style="@style/ButtonTheme"
         android:text="@string/fifth_project"
-        android:background="@color/projectButtonColor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:id="@+id/button5"
-        android:onClick="showToast"
         android:layout_below="@+id/button4"
-        android:layout_alignStart="@+id/button4"
-        android:layout_marginRight="@dimen/main_activity_horizontal_margin" />
+        android:layout_alignStart="@+id/button4" />
 
     <Button
-        android:text="@string/capstone_project"
+        style="@style/ButtonTheme"
         android:background="@color/capstoneButtonColor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/capstone_project"
         android:id="@+id/button6"
-        android:onClick="showToast"
         android:layout_below="@+id/button5"
-        android:layout_alignStart="@+id/button5"
-        android:layout_marginRight="@dimen/main_activity_horizontal_margin" />
+        android:layout_alignStart="@+id/button5" />
 
 </RelativeLayout>

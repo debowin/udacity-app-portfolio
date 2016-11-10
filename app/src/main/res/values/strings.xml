@@ -7,4 +7,5 @@
     <string name="fourth_project">MAKE YOUR APP MATERIAL</string>
     <string name="fifth_project">GO UBIQUITOUS</string>
     <string name="capstone_project">CAPSTONE</string>
+    <string name="button_click_handler">showToast</string>
 </resources>
